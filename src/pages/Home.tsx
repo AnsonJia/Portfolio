@@ -1,4 +1,4 @@
-import Hero from '../components/Hero.tsx'
+import Hero from '../components/Hero/Hero.tsx'
 
 function Home() {
   return (
