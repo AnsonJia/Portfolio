@@ -13,3 +13,4 @@ export default function CodeTag({//displau a tag takes 2 props
     </div>
   );
 }
+//scss in typography
