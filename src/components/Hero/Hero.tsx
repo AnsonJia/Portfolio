@@ -28,11 +28,11 @@ export default function Hero() {
     y: window.innerHeight / 2,
   });
 
-  const initial = useRef(1);
+  const initial = useRef({ value: 1 });
 
-  const zoom = useRef(//check to see if we are on explore url for diff zoom effect
-    location.pathname === '/explore' ? 1 : 0
-  );
+  const zoom = useRef({//check to see if we are on explore url for diff zoom effect
+    value: location.pathname === '/explore' ? 1 : 0
+  });
 
   useEffect(() => {//update size based on browser
     const resize = () => {
@@ -59,13 +59,13 @@ export default function Hero() {
   }, []);
 
   useEffect(() => {
-    gsap.to(initial, {
+    gsap.to(initial.current, {
       duration: 10,
       value: 0,
       ease: 'expo.out',
     });
 
-    gsap.to(zoom, {//zoom animation
+    gsap.to(zoom.current, {//zoom animation
       duration: 10,
       value://diff values on diff pages
         location.pathname === '/explore' ||
@@ -209,12 +209,12 @@ export default function Hero() {
 
         gl.uniform1f(//send zoom
           loc.zoom,
-          zoom.current
+          zoom.current.value
         );
 
         gl.uniform1f(//initial animation
           loc.initial,
-          initial.current
+          initial.current.value
         );
 
         gl.uniform1f(//port scroll (currently does nothing)
