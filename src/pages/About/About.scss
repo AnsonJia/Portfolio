@@ -12,32 +12,6 @@
     opacity: 0;
   }
   
-  .client-logo__container {
-    display: grid;
-    gap: 5px;
-    grid-template-columns: repeat(5, 1fr);
-  
-    @media screen and (max-width: 1200px) {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  
-    @media screen and (max-width: 992px) {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  
-    &:hover {
-      .client-logo:not(:hover) {
-        opacity: 0.5;
-      }
-    }
-  }
-  
-  .client-logo {
-    width: 100%;
-    opacity: 1;
-    transition: opacity 0.3s ease;
-  }
-  
   .back-link {
     position: fixed;
     top: 30px;
