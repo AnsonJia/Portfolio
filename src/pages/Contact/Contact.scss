@@ -1,0 +1,39 @@
+@import '../../components/Hero/Hero.scss';
+.page-enter-active {
+    transition: all 1.4s ease;
+    transition-delay: 1.7s;
+  }
+  
+  .page-leave-active {
+    transition: all 1s;
+  }
+  
+  .page-enter-from, .page-leave-to {
+    opacity: 0;
+  }
+  
+  .back-link {
+    position: fixed;
+    top: 30px;
+    left: 60px;
+  
+    @media screen and (max-width: 992px) {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+  }
+  
+  .container-xxxl {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    @media screen and (max-width: 768px) {
+      justify-content: flex-start;
+      min-height: unset;
+    }
+  }
+
+  
