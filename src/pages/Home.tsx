@@ -1,10 +1,8 @@
-import Hero from '../components/Hero/Hero.tsx'
 
 function Home() {
   return (
-    <main>
-      <Hero />
-    </main>
+    <section className="page">
+    </section>
   )
 }
 
