@@ -60,10 +60,10 @@ export default function Cursor() {
 
     const tick = () => { //cursor animation easing
       output.current.x +=
-        (pos.current.x - output.current.x) * 0.15;
+        (pos.current.x - output.current.x) * 0.50;
 
       output.current.y +=
-        (pos.current.y - output.current.y) * 0.15;
+        (pos.current.y - output.current.y) * 0.50;
 
       if (cursorRef.current) {//cursor centering
         cursorRef.current.style.transform = `translate(
