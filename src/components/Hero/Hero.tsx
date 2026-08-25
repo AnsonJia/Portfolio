@@ -310,7 +310,7 @@ export default function Hero() {
             </span>
 
             <span className="code--white">
-              = [...]
+              = [...
             </span>
 
             <span className="code--purple">
@@ -342,12 +342,12 @@ export default function Hero() {
             number="02"
             className="await-fetch-contact"
           >
-            <span className="code--orange">
+            <span className="code--blue">
               await
             </span>
 
             <span className="code--orange">
-              &nbsp;$fetch
+              &nbsp;fetch
             </span>
 
             <span className="code--white">
@@ -372,11 +372,24 @@ export default function Hero() {
             className="click-discovery"
           >
             <span className="code--orange">
-              @click
+              onClick&nbsp;
             </span>
 
+            <span className="code--yellow">
+              {`{`}
+            </span>
             <span className="code--white">
-              (e) =&gt; {`{ new `}
+              ( 
+              <span className="code--yellow">
+                e
+              </span>) 
+              =&gt;&nbsp;
+            </span>
+            <span className="code--pink">
+            {`{`}&nbsp;
+            </span>
+            <span className="code--yellow">
+              new
             </span>
 
             <span className="code--purple">
@@ -384,9 +397,20 @@ export default function Hero() {
             </span>
 
             <span className="code--white">
-              (e)
+              ( 
+              <span className="code--yellow">
+                e
+              </span>
+              ) 
             </span>
 
+            <span className="code--pink">
+              &nbsp;{`}`}
+            </span>
+            <span className="code--yellow">
+              {`}`}
+            </span>
+            
             <span className="code--orange">
               ;
             </span>
