@@ -65,7 +65,7 @@ export default function Contact() {
                 className="mouse-sm"
                 style={{ color: '#7A4FEE' }}
               >
-                +1 (647) 425-1598
+                +1 (332) 272-0401
               </a>
               .
             </p>
