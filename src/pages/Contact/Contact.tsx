@@ -23,7 +23,7 @@ export default function Contact() {
               className="back-link mouse-md mt-4 mt-lg-0"
               to="/"
             >
-              <i className="fa-sharp fa-solid fa-arrow-up-left fa-2x pe-3" />
+              <i className="fa-solid fa-chevron-left fa-2x" />
               Back
             </Link>
 
@@ -40,7 +40,7 @@ export default function Contact() {
               target="_blank"
               className="mb-6"
             >
-              <i className="fa-sharp fa-light fa-paper-plane" />
+              <i className="fa fa-paper-plane" aria-hidden="true"></i>
               Let's chat
             </ActionButton>
 
@@ -61,7 +61,7 @@ export default function Contact() {
               <br/>
               or call me at{' '}
               <a
-                href="tel:+16474251598"
+                href="tel:+13322720401"
                 className="mouse-sm"
                 style={{ color: '#7A4FEE' }}
               >
