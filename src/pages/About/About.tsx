@@ -24,7 +24,7 @@ export default function About() {
                 className="back-link mouse-md mt-4 mt-lg-0"
                 to="/"
               >
-                <i className="fa-sharp fa-solid fa-arrow-up-left fa-2x pe-3" />
+                <i className="fa-solid fa-chevron-left fa-2x " />
                 Back
               </Link>
 
@@ -75,7 +75,7 @@ export default function About() {
                 target="_blank"
                 className="mb-6"
               >
-                <i className="fa-sharp fa-light fa-paper-plane" />
+                <i className="fa fa-paper-plane" aria-hidden="true"></i>
                 Let's chat
               </ActionButton>
             </div>
