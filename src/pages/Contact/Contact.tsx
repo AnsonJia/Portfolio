@@ -32,7 +32,8 @@ export default function Contact() {
             <h1 className="mb-4">Let's Chat</h1>
 
             <p className="mb-4">
-              paragraph here
+              Whether you are looking to build something interesting or simply want to connect, I'd love to hear from you. 
+              Feel free to reach out and start a conversation.
             </p>
 
             <ActionButton
