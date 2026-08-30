@@ -1,0 +1,35 @@
+
+html {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior-y: none;
+}
+
+body {
+  overflow-x: hidden !important;
+  overflow-y: hidden;
+  color: #FFFFFF;
+  cursor: crosshair;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior-y: none;
+
+  &.enable-scroll{
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    
+
+    &::-webkit-scrollbar {
+      display: none;
+      width: 0;
+      height: 0;
+    }
+  }
+}
+  
+* {
+  user-select: none;
+  -webkit-user-select: none;
+}
+  
