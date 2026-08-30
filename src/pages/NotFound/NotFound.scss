@@ -1,0 +1,16 @@
+.lead {
+    color: #F2F2F2;
+    user-select: none;
+    text-shadow: -1px 0 0 rgb(44, 191, 217), 1px 0 0 rgb(239, 9, 105), 0px 3px 2px rgb(39, 20, 103);
+    transition: text-shadow 0.1s ease-in-out;
+    @media screen and (max-width: 992px) {
+      text-shadow: none;
+    }
+    
+    span {
+      pointer-events: none;
+      color: #F2F2F2;
+      user-select: none;
+    }
+  }
+  

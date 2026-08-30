@@ -1,5 +1,6 @@
 import CodeLine from '../../components/CodeLine/CodeLine';
 import ActionButton from '../../components/ActionButton/ActionButton';
+import './NotFound.scss';
 
 export default function NotFound() {
   return (
