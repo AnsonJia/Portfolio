@@ -9,7 +9,7 @@ export default function ScrollHint() {
       className="scroll-hint mouse-md d-flex"
     >
       <span className="d-none d-md-inline-block">
-        Scroll to Explore
+        Scroll to Explore &nbsp;&nbsp;&nbsp;&nbsp;
       </span>
 
       <span className="d-inline-block d-md-none">
