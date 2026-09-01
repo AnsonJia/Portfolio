@@ -1,12 +1,14 @@
-//import Icon from './Icon';
 import './BottomBar.scss';
 
 export default function BottomBar() {
   return (
     <div className="bottom-bar row pb-2 pb-md-3 align-items-end d-flex justify-content-between">  {/*bottom bar container bootstrap padding*/}
       <div className="col-auto d-flex align-items-center"> {/*bottom bar left side*/}
-        {/*<Icon size={45} />*/}
-
+        <img
+          src="/AJ-icon.svg"
+          alt="Anson Jia"
+          className="bottom-navigation__icon"
+        />
         <h1 className="bottom-navigation__title ms-4">
           <span>Anson Jia</span>
           <br />
