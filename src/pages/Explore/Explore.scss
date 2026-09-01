@@ -1,14 +1,14 @@
 .explore-page {
     min-height: 100vh;
     width: 100%;
-    background: #f2f2f2;
-    color: #111;
     position: relative;
   
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: scroll;
+    scrollbar-width: none;
+   
   }
   
   .explore-content {
@@ -16,11 +16,15 @@
     h1 {
         font-size: clamp(50px, 8vw, 120px);
         margin: 0 0 80px;
+        color: rgb(255, 255, 255);
+
       }
     p {
         max-width: 600px;
         font-size: 18px;
         line-height: 1.6;
+        color: rgb(255, 255, 255);
+
     }
 
     .explore-label {
