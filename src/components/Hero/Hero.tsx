@@ -31,7 +31,7 @@ export default function Hero() {
   const initial = useRef({ value: 1 });
 
   const zoom = useRef({//check to see if we are on explore url for diff zoom effect
-    value: location.pathname === '/explore' ? 1 : 0
+    value: location.pathname === '/explore' ? 0.25 : 0
   });
 
   useEffect(() => {//update size based on browser
@@ -60,18 +60,15 @@ export default function Hero() {
 
   useEffect(() => {
     gsap.to(initial.current, {
-      duration: 10,
+      duration: 5,
       value: 0,
       ease: 'expo.out',
     });
 
     gsap.to(zoom.current, {//zoom animation
-      duration: 10,
+      duration: 5,
       value://diff values on diff pages
-        location.pathname === '/explore' ||
-        location.pathname === '/portfolio'
-          ? 1
-          : 0,
+        location.pathname === '/explore' ? 0.25 : 0,
       ease: 'power1.inOut',//smoothness of animation
     });
   }, [location.pathname]);
@@ -246,10 +243,6 @@ export default function Hero() {
       ? 'hero--about '
       : location.pathname === '/contact'
         ? 'hero--contact '
-        : location.pathname.startsWith('/portfolio/')
-          ? 'hero--portfolio-single '
-          : location.pathname.startsWith('/article/')
-            ? 'hero--article-single '
             : ''
   ).trim();
 
