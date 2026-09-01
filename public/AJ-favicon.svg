@@ -1,15 +1,13 @@
 <?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="265.000000pt" height="286.000000pt"
- viewBox="0 0 265.000000 286.000000"
- preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg"
+ width="265" height="286"
+ viewBox="0 0 265 286"
+>
 
 <!-- White rounded background -->
-<rect width="265" height="286" rx="35" fill="#ffffff"/>
+<rect width="265" height="286" rx="50" fill="#ffffff"/>
 
-<!-- Your original icon -->
+
 <g transform="translate(0.000000,286.000000) scale(0.100000,-0.100000)"
 fill="#000000" stroke="none">
 <path d="M1555 2701 c-50 -32 -1293 -1284 -1305 -1314 -5 -16 -10 -47 -10 -70
