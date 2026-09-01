@@ -5,6 +5,7 @@ import DefaultLayout from './layouts/DefaultLayout.tsx';
 import Home from './pages/Home.tsx';
 import About from './pages/About/About.tsx';
 import Contact from './pages/Contact/Contact.tsx';
+import Explore from './pages/Explore/Explore.tsx';
 import NotFound from './pages/NotFound/NotFound.tsx';
 
 
@@ -19,7 +20,7 @@ export default function App() {
         
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        
+        <Route path="/explore" element={<Explore />} />
         <Route path="*" element={<NotFound />} />
       </Routes> 
     </DefaultLayout>
