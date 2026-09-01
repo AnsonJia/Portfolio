@@ -16,7 +16,7 @@ export default function ScrollHint() {
         Tap to Explore -&gt;
       </span>
 
-      <span>
+      <span className="d-none d-md-inline-block">
       <Mouse
         size={30}
         color="white"
