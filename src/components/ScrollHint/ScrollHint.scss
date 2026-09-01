@@ -12,6 +12,8 @@
   
   
   @media (max-width: 1200px) {
+    left: 30px;
+    bottom: 80px;
     justify-content: flex-start;
   }
   
@@ -38,6 +40,9 @@
     transform: translateY(20px);
     animation: animateContentIn 1s ease-in-out forwards;
     animation-delay: 0.5s;
+    @media (max-width: 768px) {
+      
+    }
   }
 }
   
