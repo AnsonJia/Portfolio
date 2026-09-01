@@ -57,6 +57,9 @@
     align-items: center;
     color: #AFBFD6;
     font-size: 0.9rem;
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
   
   .status-indicator__light {
