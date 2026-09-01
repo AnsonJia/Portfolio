@@ -4,13 +4,8 @@
     right: 30px;
     z-index: 100;
   
-    @media screen and (max-width: 1680px) {
-      right: 30px;
-    }
-  
     @media screen and (max-width: 992px) {
-      display: none;
-      position: relative;
+      position: absolute;
     }
   
     .nav-icon {
@@ -58,6 +53,17 @@
         font-size: 14px;
         text-decoration: none;
         position: relative;
+      }
+      @media screen and (max-width: 768px) {
+        top: -18px;
+        right: 60px;
+        gap: 5px;
+    
+        a {
+          padding: 20px 10px;
+          font-size: 12px;
+          letter-spacing: 1px;
+        }
       }
     }
   
