@@ -1,17 +1,4 @@
-@import '../../components/Hero/Hero.scss';
-.page-enter-active {
-    transition: all 1.4s ease;
-    transition-delay: 1.7s;
-  }
-  
-  .page-leave-active {
-    transition: all 1s;
-  }
-  
-  .page-enter-from, .page-leave-to {
-    opacity: 0;
-  }
-  
+@import '../../components/Hero/Hero.scss';  
   .back-link {
     position: fixed;
     top: 30px;
