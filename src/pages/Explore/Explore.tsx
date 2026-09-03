@@ -41,6 +41,8 @@ export default function Explore() {
             A collection of projects I've worked on across software development,
             web applications, and other technologies.
             </p>
+
+            <p style={{ color: "#ff0000", fontSize: 40}}>Page Is Under Construction Please Check Back Later</p>
             
         </div>
         </main>
