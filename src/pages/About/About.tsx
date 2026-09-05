@@ -18,7 +18,7 @@ export default function About() {
     <section className="page">
       <div className="container-xxxl">
         <div className="row mt-0 mt-lg-6">
-          <main className="d-flex flex-column">
+          <main className="d-flex flex-column offset-lg-1">
             <div className="col-12 col-md-8 col-lg-7 col-xl-6 col-xxl-5 mb-0">
               <Link
                 className="back-link mouse-md mt-4 mt-lg-0"
