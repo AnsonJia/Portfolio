@@ -10,12 +10,20 @@
       left: 0;
     }
   }
+  .title-break {
+    display: block;
+    margin-top: 20px;
+  }
   
   .headshot {
-    width: 80px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-  
+    object-fit: cover;
+    object-position: center 20%;
+    
     @media screen and (max-width: 992px) {
-      width: 70px;
+      width: 80px;
+      height: 80px;
     }
   }
