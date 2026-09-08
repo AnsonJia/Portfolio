@@ -38,11 +38,17 @@ export default function About() {
                   alt="Hey I'm Anson"
                   className="headshot me-4 me-lg-5"
                 />
+
+                <h1 className="my-0">
+                  Hey, I'm Anson —
+                  <span className="title-break">
+                    An Interactive Software Developer
+                  </span>
+                </h1>
+                
               </div>
 
-              <h2 className="my-4">
-                Hey I'm Anson — An Interactive Software Developer.
-              </h2>
+             
 
               <div>
                 <p>
@@ -65,7 +71,7 @@ export default function About() {
             </div>
 
             <div className="col-12 col-md-8 col-lg-7 col-xl-6 col-xxl-5 mb-4 mb-lg-8">
-              <h3 className="mt-5 mb-4">Availability</h3>
+              <h2 className="mt-5 mb-4">Availability</h2>
 
               <p>
                 I'm always open to connecting with people, discussing interesting ideas, and exploring new opportunities.
