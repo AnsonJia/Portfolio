@@ -16,6 +16,12 @@
     justify-content: flex-start;
   }
   
+  @media (max-width: 767px) {//mobile
+    left: 30px;
+    bottom: 80px;
+    justify-content: flex-start;
+  }
+  
   
   &:before {
     content: "";
