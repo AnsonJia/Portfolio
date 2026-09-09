@@ -9,20 +9,18 @@
   width: 300px;
   justify-content: flex-end;
   align-items: flex-end;
-  
-  
+
   @media (max-width: 1200px) {
     left: 30px;
     justify-content: flex-start;
   }
-  
-  @media (max-width: 767px) {//mobile
-    left: 30px;
-    bottom: 80px;
-    justify-content: flex-start;
+
+  //mobile
+  @media (max-width: 767px) {
+    bottom: 90px;
+    max-width: none;
   }
-  
-  
+
   &:before {
     content: "";
     position: absolute;
@@ -35,7 +33,7 @@
     animation: loopingBorder 3s linear infinite;
     transform-origin: 0 center;
   }
-  
+
   span {
     color: #F2F2F2;
     font-weight: 600;
