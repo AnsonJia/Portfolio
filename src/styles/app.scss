@@ -84,12 +84,7 @@ $enable-negative-margins: true;
 @import "typography";
 @import "transitions";
 
-#bottom-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
+
 
 .feed-section__container-padding {
   width: calc(((100vw - 1600px) / 2) + (var(--bs-gutter-x) * 0.5));
