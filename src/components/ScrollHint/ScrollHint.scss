@@ -17,8 +17,11 @@
 
   //mobile
   @media (max-width: 767px) {
-    bottom: 90px;
+    position: fixed;
+    bottom: 100px;
     max-width: none;
+    z-index: 10;
+
   }
 
   &:before {
