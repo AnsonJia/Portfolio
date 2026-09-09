@@ -17,7 +17,8 @@
 
   //mobile
   @media (max-width: 767px) {
-    bottom: calc(100px + env(safe-area-inset-bottom));
+    position: fixed;
+    bottom: 150px;
   }
 
   &:before {
