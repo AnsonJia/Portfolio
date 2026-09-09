@@ -19,6 +19,7 @@
   @media (max-width: 767px) {
     position: fixed;
     bottom: 150px;
+    z-index: 10;
   }
 
   &:before {
